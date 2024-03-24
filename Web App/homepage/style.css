@@ -1,0 +1,70 @@
+/* 
+  bg-color: #4c64f2;
+  text-color: #000000
+  green: #5fc6ad
+  yellow: #d9ff66
+  blue: #172ba1
+*/
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(76, 100, 242);
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+
+.panel {
+  background-color: rgb(23, 43, 161);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.apps ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+  gap: 32px;
+  padding: 32px;
+  list-style: none;
+}
+
+.apps ul li {
+  width: 100px;
+}
+
+.app {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.app img {
+  width: 100%;
+  margin-bottom: 12px;
+}
